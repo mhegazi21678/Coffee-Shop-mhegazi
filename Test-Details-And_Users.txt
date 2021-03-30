@@ -1,0 +1,36 @@
+GET https://hij-fsnd.eu.auth0.com/authorize?
+  audience=API_IDENTIFIER&
+  response_type=code&
+  client_id=SecWtYHGlbQtw5GgffJ25KEPAYJFOBsz&
+  redirect_uri=undefined
+  
+
+GET:
+https://hij-fsnd.eu.auth0.com/authorize?audience=hij_coffee&response_type=token&client_id=O865MBaSn8mEBzHy5vjeVsLXIrPksA5e&redirect_uri=http://localhost:8100
+
+
+GET https://YOUR_DOMAIN/v2/logout?
+  client_id=YOUR_CLIENT_ID&
+  returnTo=LOGOUT_URL
+  
+
+logout:
+https://hij-fsnd.eu.auth0.com/v2/logout?client_id=O865MBaSn8mEBzHy5vjeVsLXIrPksA5e&returnTo=http://localhost:8100/tabs/user-page
+
+https://hij-fsnd.eu.auth0.com/.well-known/jwks.json
+
+
+Users:
+Barista:
+user-name= barista@gmail.com
+password = Ba123456!
+
+Manager:
+user-name= mohammad.hegazi@gmail.com
+password = Amdocs03!
+
+
+	
+
+
+
